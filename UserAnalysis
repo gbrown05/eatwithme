@@ -1,0 +1,30 @@
+Notes:
+
+This evaluation will be more informal than your future usability test. Use your low-fidelity prototype to communicate your design ideas to your subject. Have the subject go through some of the tasks in the system, using the "talk out loud" method. Report any difficulties your subject had while completing the tasks, what characteristics they liked, what characteristics they did not like, what was easy or difficult for them, and what you think would need to be improved.
+
+Prepare a short discussion of things that you discovered while developing and testing the prototype. Explain any changes that you made to your original design while creating the low-fidelity prototype. Also, discuss functionality that did not include in this prototype. Discuss any issues that you found during the evaluation and provide a description of any changes you would make to your design.
+
+We left out some basic functions of the product, such as the settings page. On this page, a user
+can logout, change location preferences, and adjust which friends/contacts will be able to
+see him on Eat With Me. 
+
+We also left out the "Other" option in the places section. In the actual product, a user can tap "Other"
+and entera place he'd like to eat. Eventually, there will be a learning algorithm that slowly
+adds popular places to those available; then, the most common eating spots will show up in the list.
+Additionally, we will have a "start up" screen to differentiate from the "Let's Eat!" button.
+
+When we evaluated the product, we found that first-time users had trouble determining who to select when
+their contacts appear. In our next prototype, we will fix this by making it clear that the first steps are part
+of the setup process. We'll have a small bubble on the screen that explains that the people you select will eventually
+show up if they are available when the user is.
+
+Also, the user wasn't sure how he could mark that he was available or not available to eat. This is something
+that we'll need to explain in a two-step, 15-second "tour" for first-time users -- whenever the app is open, they are
+available.
+
+The subject who used the paper prototype without the setup stage had few issues. She understood how
+to select who to eat with and message them; she completed the goal relatively easily. This shows us that
+most of the modifications we will have to make will pertain to setup and first-time users.
+
+
+

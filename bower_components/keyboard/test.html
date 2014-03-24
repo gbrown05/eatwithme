@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>Chats</title>
+	<link rel="stylesheet" type="text/css" href="default.css" />
+	<meta name="description" content="Eat With Me - By George Brown" />
+	<meta name="keywords" content="food, eat, lunch, friends" />
+
+	<!-- demo -->
+	<link href="demo/demo.css" rel="stylesheet">
+
+	<!-- jQuery & jQuery UI + theme (required) -->
+	<link href="http://code.jquery.com/ui/1.9.0/themes/ui-darkness/jquery-ui.css" rel="stylesheet">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.js"></script>
+	<script src="http://code.jquery.com/ui/1.9.0/jquery-ui.min.js"></script>
+
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.0-rc.1/jquery.mobile-1.1.0-rc.1.min.css" />
+	<script src="http://code.jquery.com/mobile/1.1.0-rc.1/jquery.mobile-1.1.0-rc.1.min.js"></script>
+	<!-- <script src="http://jquerymobile.com/demos/1.0rc1/experiments/themeswitcher/jquery.mobile.themeswitcher.js"></script> -->
+
+	<!-- keyboard widget css & script (required) -->
+	<link href="css/keyboard.css" rel="stylesheet">
+	<script src="js/jquery.keyboard.js"></script>
+
+	<!-- keyboard extensions (optional) -->
+	<script src="js/jquery.mousewheel.js"></script>
+
+	<!--
+	<script src="js/jquery.keyboard.extension-typing.js"></script>
+	<script src="js/jquery.keyboard.extension-autocomplete.js"></script>
+	-->
+	<script src="js/jquery.keyboard.extension-mobile.js"></script>
+
+	<!-- initialize keyboard (required) -->
+	<script>
+	$(function(){
+
+		var k = $('#keyboard'),
+		s = $('#switcher').find('input'),
+		set = $('#switcher').find('.ui-controlgroup-controls'),
+		kbOptions = {
+			keyBinding : 'mousedown touchstart',
+			alwaysOpen : true,
+			// make sure jQuery UI styles aren't applied even if the stylesheet has loaded
+			// the Mobile UI theme will still over-ride the jQuery UI theme
+			css : {
+				input          : '',
+				container      : '',
+				buttonDefault  : '',
+				buttonHover    : '',
+				buttonActive   : '',
+				buttonDisabled : ''
+			}
+		};
+
+		k
+			.keyboard(kbOptions)
+			/* initial setup for mobile extension */
+			.addMobile({
+				// keyboard wrapper theme
+				container    : { theme:'a' },
+				// theme added to all regular buttons
+				buttonMarkup : { theme:'a', shadow:'true', corners:'true' },
+				// theme added to all buttons when they are being hovered
+				buttonHover  : { theme:'c' },
+				// theme added to action buttons (e.g. tab, shift, accept, cancel);
+				// parameters here will override the settings in the buttonMarkup
+				buttonAction : { theme:'b' },
+				// theme added to button when it is active (e.g. shift is down)
+				// All extra parameters will be ignored
+				buttonActive : { theme:'e' }
+			});
+
+		/* Theme switcher - temporary until jQuery Mobile Theme Switcher is available */
+		s.bind('change', function(){
+			k.getkeyboard().destroy(); // destroy keyboard
+			k
+			.keyboard(kbOptions) // build a new one, ready for a new theme
+			.addMobile({
+				container    : { theme : set.eq(0).find(':checked').attr('data-theme') },
+				buttonMarkup : { theme : set.eq(1).find(':checked').attr('data-theme'), shadow:'true', corners:'true' },
+				buttonHover  : { theme : set.eq(2).find(':checked').attr('data-theme') },
+				buttonAction : { theme : set.eq(3).find(':checked').attr('data-theme') },
+				buttonActive : { theme : set.eq(4).find(':checked').attr('data-theme') }
+			});
+		});
+
+	});
+	</script>
+
+</head>
+<body id="mobile">
+
+	<div id="pagewrap" data-role="page" data-theme="a">
+		<!-- End Links -->
+
+		<div id="wrap"> <!-- wrapper only needed to center the input -->
+
+			<!-- keyboard input -->
+			<label for="keyboard"></label>
+			<input id="keyboard" name="keyboard" type="text">
+
+		</div> <!-- End wrapper -->
+
+	</div>
+
+</body>
+</html>

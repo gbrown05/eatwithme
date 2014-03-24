@@ -1,0 +1,111 @@
+html {
+	background-color: #C9FFD8;
+	font: "HelveticaNeue-Light";
+}
+
+.bigbutton {
+	font-family: "HelveticaNeue-Light";
+	font-style: bold;
+	font-size: 22px;
+	color: white;
+	background-color: #FF3333;
+	border-radius: 7px;
+	padding: 20px;
+	margin: auto;
+	margin-top: 20%;
+	margin-left: 20%;
+	margin-right: 20%;
+	text-align: center;
+	text-decoration: none;
+}
+
+a:link, a:visited, a:hover {
+	text-decoration: none;
+	color: white;
+}
+
+.smallbutton {
+	font-family: "HelveticaNeue-Light";
+	font-style: bold;
+	font-size: 18px;
+	color: white;
+	background-color: #FF3333;
+	border-radius: 7px;
+	padding: 10px;
+	margin: auto;
+	text-align: center;
+	text-decoration: none;
+}
+
+.navbutton {
+	font-family: "HelveticaNeue-Light";
+	font-style: bold;
+	font-size: 15px;
+	color: white;
+	background-color: #FF3333;
+	border-radius: 3px;
+	margin: auto;
+	margin-right: 5px;
+	padding: 4px;
+	text-align: right;
+	text-decoration: none;
+	display: inline;
+}
+
+.navleft {
+	font-family: "HelveticaNeue-Light";
+	font-style: bold;
+	font-size: 15px;
+	color: white;
+	background-color: #FF3333;
+	border-radius: 3px;
+	margin: auto;
+	margin-left: 5%;
+	padding: 4px;
+	text-align: left;
+	text-decoration: none;
+	display: inline;
+}
+
+p {
+	font-family: "HelveticaNeue-Light";
+	font-size: 16px;
+	color: black;
+	margin-left: 40%;
+}
+
+.nocenter {
+	margin-left: 15px;
+	display: inline;
+}
+
+.rightalign {
+	display: inline;
+	margin-right: 1%;
+	margin: auto;
+}
+
+.where {
+	margin: auto;
+}
+
+.avail {
+	margin: auto;
+
+}
+
+.keyboardwrap {
+	text-align: center;
+}
+
+h1 {
+	font-family: "HelveticaNeue-Light";
+	color: #FF3333;
+	font-size: 27px;
+	text-align: center;
+}
+
+body {
+	background-color: #C9FFD8;
+	font: "HelveticaNeue-Light";
+}
