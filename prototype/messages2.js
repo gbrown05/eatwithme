@@ -7,11 +7,8 @@ function showMessage()
 	if(george == 0) {
 		message = "You: " + message;
 		george = 1;
-	} else if (george == 1) {
-		message = "George: " + message;
-		george = 2;
 	} else {
-		message = "Emily: " + message;
+		message = "Siddhartha: " + message;
 		george = 0;
 	}
 	//Now, create paragraph that will be added

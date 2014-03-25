@@ -67,6 +67,21 @@ a:link, a:visited, a:hover {
 	display: inline;
 }
 
+.navright {
+
+	font-family: "HelveticaNeue-Light";
+	font-style: bold;
+	font-size: 15px;
+	color: white;
+	background-color: #FF3333;
+	border-radius: 3px;
+	margin-right: 5%;
+	padding: 4px;
+	text-align: right;
+	text-decoration: none;
+	display: inline;
+}
+
 p {
 	font-family: "HelveticaNeue-Light";
 	font-size: 16px;
