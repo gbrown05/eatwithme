@@ -4,38 +4,25 @@
 <head>
 	<meta name="description" content="Eat With Me - By George Brown" />
 	<meta name="keywords" content="food, eat, lunch, friends" />
-	
-	<link href="../demo/demo.css" rel="stylesheet">
-	<link href="http://code.jquery.com/ui/1.9.0/themes/ui-darkness/jquery-ui.css" rel="stylesheet">
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.js"></script>
-	<script src="http://code.jquery.com/ui/1.9.0/jquery-ui.min.js"></script>
-	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.0-rc.1/jquery.mobile-1.1.0-rc.1.min.css" />
-	<script src="http://code.jquery.com/mobile/1.1.0-rc.1/jquery.mobile-1.1.0-rc.1.min.js"></script>
-	<link href="../css/keyboard.css" rel="stylesheet">
-	<script src="../js/jquery.keyboard.js"></script>
-	<script src="../js/jquery.keyboard.extension-mobile.js"></script>
-	
-	<script type="text/javascript" src="myKeys.js"></script>
+
+	<script type="text/javascript" src="messages.js"></script>
 	<link rel="stylesheet" type="text/css" href="default.css" />
 	<title>Chat with Emily and George</title>
-<head>
+</head>
 
 <body>
 	<p class="navleft"><a href="avail.html">Who's Available</a></p>
 	<p class="navbutton"><a href="chats.html">List of Chats</a></p>
-	<h1>Chat with Emily and George</h1><br><br><br><br>
+	<h1>Chat with Emily and George</h1>
 	
 	<div id="status">
 	</div>
+	<div class="nocenter"></div>
+	<div class="rightalign"></div>
+	<div class="messageText">
+			<input id="msg" name="msg" type="text" onchange="showMessage()" size="30">
 
-	<div id="wrap"> <!-- wrapper only needed to center the input -->
-
-			<!-- keyboard input -->
-			<!-- <input id="msg" name="msg" type="text" onchange="showMessage()" size="30"> -->
-
-			<input id="keyboard" name="keyboard" type="text" onchange="showMessage()" size="30">
-
-	</div> <!-- End wrapper -->
+	</div>
 
 </body>
 </html>
