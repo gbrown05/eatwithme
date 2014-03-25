@@ -94,6 +94,10 @@ p {
 
 }
 
+.status {
+	text-align: center;
+}
+
 .keyboardwrap {
 	text-align: center;
 }
