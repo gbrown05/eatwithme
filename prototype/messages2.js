@@ -3,6 +3,7 @@ var george = 0;
 
 function showMessage()
 {
+	var clear = document.getElementById("msg");
 	var message = document.getElementById("msg").value;
 	if(george == 0) {
 		message = "You: " + message;
@@ -20,4 +21,5 @@ function showMessage()
 	//Finally, add the update at the top of the "status" div
 	document.getElementById("status").appendChild(paragraph, 
 		document.getElementById("status").firstChild);
+	clear.value = "";
 }
