@@ -6,7 +6,6 @@ html {
 
 .bigbutton {
 	font-family: "HelveticaNeue-Light";
-	font-style: bold;
 	font-size: 22px;
 	color: white;
 	background-color: #FF4A4A;
@@ -27,7 +26,6 @@ a:link, a:visited, a:hover {
 
 .smallbutton {
 	font-family: "HelveticaNeue-Light";
-	font-style: bold;
 	font-size: 18px;
 	color: white;
 	background-color: #FF4A4A;
@@ -40,7 +38,6 @@ a:link, a:visited, a:hover {
 
 .navbutton {
 	font-family: "HelveticaNeue-Light";
-	font-style: bold;
 	font-size: 15px;
 	color: white;
 	background-color: #FF4A4A;
@@ -55,7 +52,6 @@ a:link, a:visited, a:hover {
 
 .navleft {
 	font-family: "HelveticaNeue-Light";
-	font-style: bold;
 	font-size: 15px;
 	color: white;
 	background-color: #FF4A4A;
@@ -69,9 +65,8 @@ a:link, a:visited, a:hover {
 }
 
 .navright {
-
+	margin-top: 5px;
 	font-family: "HelveticaNeue-Light";
-	font-style: bold;
 	font-size: 15px;
 	color: white;
 	background-color: #FF4A4A;
@@ -81,6 +76,9 @@ a:link, a:visited, a:hover {
 	text-align: right;
 	text-decoration: none;
 	display: inline;
+	position:absolute;
+    top:0;
+    right:0;
 }
 
 p {

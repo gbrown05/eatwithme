@@ -14,7 +14,7 @@ function showMessage()
 	document.getElementById("status").appendChild(paragraph, 
 		document.getElementById("status").firstChild);
 	clear.value = "";
-	setTimeout(replyMessage, 2000);
+	setTimeout(replyMessage, 3000);
 }
 
 function replyMessage()
