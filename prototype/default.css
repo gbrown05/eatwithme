@@ -1,6 +1,7 @@
 html {
-	background-color: #C9FFD8;
+	background-color: #FFFAD6;
 	font: "HelveticaNeue-Light";
+	color: #666666;
 }
 
 .bigbutton {
@@ -8,7 +9,7 @@ html {
 	font-style: bold;
 	font-size: 22px;
 	color: white;
-	background-color: #FF3333;
+	background-color: #FF4A4A;
 	border-radius: 7px;
 	padding: 20px;
 	margin: auto;
@@ -29,7 +30,7 @@ a:link, a:visited, a:hover {
 	font-style: bold;
 	font-size: 18px;
 	color: white;
-	background-color: #FF3333;
+	background-color: #FF4A4A;
 	border-radius: 7px;
 	padding: auto;
 	margin: auto;
@@ -42,7 +43,7 @@ a:link, a:visited, a:hover {
 	font-style: bold;
 	font-size: 15px;
 	color: white;
-	background-color: #FF3333;
+	background-color: #FF4A4A;
 	border-radius: 3px;
 	margin: auto;
 	margin-right: 5px;
@@ -57,7 +58,7 @@ a:link, a:visited, a:hover {
 	font-style: bold;
 	font-size: 15px;
 	color: white;
-	background-color: #FF3333;
+	background-color: #FF4A4A;
 	border-radius: 3px;
 	margin: auto;
 	margin-left: 5%;
@@ -73,7 +74,7 @@ a:link, a:visited, a:hover {
 	font-style: bold;
 	font-size: 15px;
 	color: white;
-	background-color: #FF3333;
+	background-color: #FF4A4A;
 	border-radius: 3px;
 	margin-right: 5%;
 	padding: 4px;
@@ -129,19 +130,19 @@ table {
 
 h1 {
 	font-family: "HelveticaNeue-Light";
-	color: #FF3333;
+	color: #FF4A4A;
 	font-size: 27px;
 	text-align: center;
 }
 
 h2 {
 	font-family: "HelveticaNeue-Light";
-	color: #FF3333;
+	color: #FF4A4A;
 	font-size: 16px;
 	text-align: center;
 }
 
 body {
-	background-color: #C9FFD8;
+	background-color: #FFFAD6;
 	font: "HelveticaNeue-Light";
 }
